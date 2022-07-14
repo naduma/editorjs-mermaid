@@ -1,0 +1,44 @@
+.mermaid-wrapper {
+    padding: .4rem 0;
+}
+
+.mermaid-container {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.mermaid-preview {
+    padding: .6rem;
+    min-height: 3rem;
+    text-align: center;
+}
+
+.mermaid-preview-border {
+	border: 1px solid rgba(201, 201, 204, .48);
+}    
+
+.mermaid-preview-error {
+    opacity: .4;
+}
+
+.mermaid-input {
+    margin-top: .4rem;
+    min-height: 6.25rem;
+    line-height: 1.6em;
+    font-size: 1rem;
+    box-shadow: none;
+    white-space: pre;
+    word-wrap: normal;
+    overflow-x: auto;
+    resize: vertical;
+}
+
+.mermaid-caption[contenteditable=true]:empty:before{
+    content: attr(data-placeholder);
+    pointer-events: none;
+    color: gray;
+}
