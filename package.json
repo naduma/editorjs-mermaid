@@ -2,13 +2,21 @@
   "name": "editorjs-mermaid",
   "version": "1.0.0",
   "description": "Mermaid Tool for Editor.js",
-  "main": "index.js",
+  "main": "./dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development --watch"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "editor.js",
+    "mermaid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naduma/editorjs-mermaid.git"
+  },
+  "homepage": "https://github.com/naduma/editorjs-mermaid#readme",
+  "author": "Naruki Azuma <naduma@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.18.6",
