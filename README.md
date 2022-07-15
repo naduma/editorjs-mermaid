@@ -29,7 +29,7 @@ const MermaidTool = require('editorjs-mermaid');
 
 You can load specific version of package from [jsDelivr CDN](https://www.jsdelivr.com/package/npm/@editorjs/header).
 
-`https://cdn.jsdelivr.net/npm/@editorjs/header@latest`
+`https://cdn.jsdelivr.net/npm/editorjs-mermaid@latest`
 
 Then require this script on page with Editor.js through the `<script src=""></script>` tag.
 
